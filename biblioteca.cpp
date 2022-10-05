@@ -15,7 +15,6 @@ void Biblioteca::insertarCancion(Cancion *_cancion){//Inserta ordenada por nombr
 
                 break;
             }
-            else{}
             tmp=tmp->sig;
         }
     }
