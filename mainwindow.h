@@ -15,7 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    QMediaPlayer*reproductor=new QMediaPlayer(this);
 private slots:
 
 
@@ -24,7 +24,7 @@ private slots:
     void on_Playstop_clicked();
 
 private:
-    QMediaPlayer*reproductor=new QMediaPlayer(this);
+    
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
