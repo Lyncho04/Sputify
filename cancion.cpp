@@ -3,7 +3,7 @@
 void Cancion::reproducir(){
 
 }
-
+int n = 25
 void Cancion::pausar(){}
 QString Cancion::getNombre(){}
 void Cancion::pasarCancion(){}
