@@ -15,7 +15,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    QMediaPlayer*reproductor=new QMediaPlayer(this);
 private slots:
 
 
